@@ -11,7 +11,6 @@ namespace CatWorx.BadgeMaker
     class Util
     {
         // Method declared as "static" so it can be called without creating an instance of the Util class
-        // Add List parameter to the method
         public static void PrintEmployees(List<Employee> employees)
         {
             for (int i = 0; i < employees.Count; i++)
@@ -31,20 +30,16 @@ namespace CatWorx.BadgeMaker
         */
         public static void MakeCSV(List<Employee> employees)
         {
-            // Check if the data directory exists
             if (!Directory.Exists("data"))
             {
-                // If it doesn't, create it
                 Directory.CreateDirectory("data");
             }
             using (StreamWriter file = new StreamWriter("data/employees.csv"))
             {
                 file.WriteLine("ID,Name,PhotoUrl");
 
-                // Loop over employees
                 for (int i = 0; i < employees.Count; i++)
                 {
-                    // Write each employee to the file
                     string template = "{0},{1},{2}";
                     file.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetFullName(), employees[i].GetPhotoUrl()));
                 }
@@ -72,7 +67,8 @@ namespace CatWorx.BadgeMaker
 
             int EMPLOYEE_ID_Y = 730;
 
-            var company = new SKPaint {
+            var company = new SKPaint
+            {
                 TextSize = 42.0f,
                 IsAntialias = true,
                 Color = SKColors.White,
@@ -81,7 +77,8 @@ namespace CatWorx.BadgeMaker
                 Typeface = SKTypeface.FromFamilyName("Arial")
             };
 
-            var empname = new SKPaint {
+            var empname = new SKPaint
+            {
                 TextSize = 42.0f,
                 IsAntialias = true,
                 Color = SKColors.Black,
@@ -89,8 +86,9 @@ namespace CatWorx.BadgeMaker
                 TextAlign = SKTextAlign.Center,
                 Typeface = SKTypeface.FromFamilyName("Arial")
             };
-            
-            var empid = new SKPaint {
+
+            var empid = new SKPaint
+            {
                 TextSize = 42.0f,
                 IsAntialias = true,
                 Color = SKColors.Black,
@@ -113,8 +111,6 @@ namespace CatWorx.BadgeMaker
                     SKImage photo = SKImage.FromEncodedData(await client.GetStreamAsync(employees[i].GetPhotoUrl()));
                     SKImage background = SKImage.FromEncodedData(File.OpenRead("badge.png"));
 
-                    // SKData data = background.Encode();
-                    // data.SaveTo(File.OpenWrite("data/employeeBadge.png"));
                     SKBitmap badge = new SKBitmap(BADGE_WIDTH, BADGE_HEIGHT);
                     SKCanvas canvas = new SKCanvas(badge);
 
