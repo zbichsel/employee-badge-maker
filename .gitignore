@@ -408,4 +408,7 @@ obj/
 /node_modules
 /wwwroot/node_modules
 
+# Personal info directory
+data/
+
 # End of https://www.toptal.com/developers/gitignore/api/csharp
