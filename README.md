@@ -142,9 +142,11 @@ git branch
 ## Usage
 
 <!-- USE SCREEN RECORDING HERE -->
-<p align="center">
-<video src="./media/Screen Recording 2024-09-15 at 19.33.59.mp4" width="400" height="400" controls></video>
-</p>
+
+
+
+https://github.com/user-attachments/assets/8db8a5e3-14ce-4ef9-b983-037b0acb5183
+
 
 
 
