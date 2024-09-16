@@ -12,7 +12,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -173,7 +172,9 @@ If you have any suggestions that would make this easier and / or better, please 
 <!-- License -->
 ## License
 
-Distributed under the MIT License. See `License.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
+
+[LICENSE](https://github.com/zbichsel/employee-badge-maker/blob/main/LICENSE)
 
 <p align="right">(<a href="readme-top">back to top</a>)</p>
 
@@ -210,8 +211,6 @@ Project Link: [http://github.com/zbichsel/employee-badge-maker](https://github.c
 [forks-url]: https://github.com/zbichsel/employee-badge-maker/network/members
 [issues-shield]: https://img.shields.io/github/issues/zbichsel/employee-badge-maker.svg?style=for-the-badge
 [issues-url]: https://github.com/zbichsel/employee-badge-maker/issues
-[license-shield]: https://img.shields.io/github/license/zbichsel/employee-badge-maker.svg?style=for-the-badge
-[license-url]: https://github.com/zbichsel/employee-badge-maker/blob/master/LICENSE.txt
 [stars-shield]: https://img.shields.io/github/stars/zbichsel/employee-badge-maker.svg?style=for-the-badge
 [stars-url]: https://github.com/zbichsel/employee-badge-maker/stargazers
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
