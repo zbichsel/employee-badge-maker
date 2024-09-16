@@ -21,7 +21,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/zbichsel/employee-badge-maker">
-    <img src="badge.png" alt="logo" width="80" height="80">
+    <img src="./media/badge.png" alt="logo" width="100" height="100">
   </a>
 
   <h3 align="center">employee-badge-maker</h3>
@@ -81,13 +81,12 @@ Here's why:
 
 ## Built With
 
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)<br/>
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)<br/>
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 
 <!-- GETTING STARTED -->
@@ -144,6 +143,9 @@ git branch
 ## Usage
 
 <!-- USE SCREEN RECORDING HERE -->
+<p align="center">
+<video src="./media/Screen Recording 2024-09-15 at 19.33.59.mp4" width="400" height="400" controls></video>
+</p>
 
 
 
